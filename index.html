@@ -74,14 +74,14 @@ Lihat Paket
 <i data-lucide=shield-check class="w-8 h-8 text-green-600"></i>
 </div>
 <h4 class="text-xl font-bold text-green-900 mb-2">Terpercaya & Berpengalaman</h4>
-<p class=text-gray-600>Lebih dari 8 tahun melayani jemaah umrah dengan pengalaman dan keahlian yang mumpuni.</p>
+<p class=text-gray-600>Kami melayani jemaah umrah dengan pengalaman dan keahlian yang mumpuni.</p>
 </div>
 <div class="feature-card bg-white rounded-2xl p-6 shadow-custom text-center">
 <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
 <i data-lucide=map-pin class="w-8 h-8 text-green-600"></i>
 </div>
 <h4 class="text-xl font-bold text-green-900 mb-2">Hotel Strategis</h4>
-<p class=text-gray-600>Hotel dekat Masjidil Haram (±25 meter) dan Masjid Nabawi untuk kenyamanan ibadah.</p>
+<p class=text-gray-600>Hotel dekat Masjidil Haram (±50 meter) dan Masjid Nabawi untuk kenyamanan ibadah.</p>
 </div>
 <div class="feature-card bg-white rounded-2xl p-6 shadow-custom text-center">
 <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -353,7 +353,7 @@ Terpercaya
 </div>
 <div class="flex items-start">
 <i data-lucide=check-circle class="w-6 h-6 text-green-600 flex-shrink-0 mt-1 mr-3"></i>
-<span class=font-medium>Hotel Sangat Dekat (Hanya ± 25 Meter dari Masjid)</span>
+<span class=font-medium>Hotel Sangat Dekat (Hanya ± 50 Meter dari Masjid)</span>
 </div>
 <div class="flex items-start">
 <i data-lucide=check-circle class="w-6 h-6 text-green-600 flex-shrink-0 mt-1 mr-3"></i>
@@ -525,6 +525,7 @@ Terpercaya
 <script>lucide.createIcons();const menuBtn=document.getElementById("menuBtn"),mobileMenu=document.getElementById("mobileMenu");let menuOpen=!1;mobileMenu.classList.add("hidden"),menuBtn.addEventListener("click",(e=>{e.stopPropagation(),menuOpen=!menuOpen,menuOpen?(mobileMenu.classList.remove("hidden"),menuBtn.innerHTML='<i data-lucide="x" class="w-6 h-6"></i>'):(mobileMenu.classList.add("hidden"),menuBtn.innerHTML='<i data-lucide="menu" class="w-6 h-6"></i>'),lucide.createIcons()})),document.addEventListener("click",(e=>{!menuOpen||mobileMenu.contains(e.target)||menuBtn.contains(e.target)||(menuOpen=!1,mobileMenu.classList.add("hidden"),menuBtn.innerHTML='<i data-lucide="menu" class="w-6 h-6"></i>',lucide.createIcons())})),document.querySelectorAll("#mobileMenu a").forEach((e=>{e.addEventListener("click",(()=>{menuOpen=!1,mobileMenu.classList.add("hidden"),menuBtn.innerHTML='<i data-lucide="menu" class="w-6 h-6"></i>',lucide.createIcons()}))})),document.querySelectorAll('a[href^="#"]').forEach((e=>{e.addEventListener("click",(function(e){const n=this.getAttribute("href");if(n.startsWith("#")&&n.length>1){e.preventDefault();const t=document.querySelector(n);if(t){const e=document.querySelector("header").offsetHeight,n=t.getBoundingClientRect().top+window.pageYOffset-e;window.scrollTo({top:n,behavior:"smooth"})}}}))})),ScrollReveal().reveal("h2, h3, h4, p, a, img, .hover-lift",{delay:0,distance:"30px",origin:"bottom",interval:0,duration:800,easing:"ease-in-out",reset:!1}),document.getElementById("waForm").addEventListener("submit",(function(e){e.preventDefault();const n=document.getElementById("name").value.trim(),t=document.getElementById("message").value.trim();if(!n||!t)return void alert("Harap isi semua kolom.");const i=`https://wa.me/6287759808899?text=${`Halo Arofa Travel,%0ASaya *${n}* ingin melakukan pemesanan:%0A%0A${t}`}`;window.open(i,"_blank")})),window.addEventListener("scroll",(function(){const e=document.querySelector("header");window.scrollY>100?e.classList.add("shadow-lg"):e.classList.remove("shadow-lg")}))</script>
 </body>
 </html>
+
 
 
 
