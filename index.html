@@ -1,716 +1,527 @@
-<!DOCTYPE html>
-<html lang="id">
+<!doctype html>
+<html lang=id>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arofa Travel | Umrah Hemat, Hotel Dekat, Harga Bersahabat</title>
-  <meta name="description" content="PT. Arofa Travel: Spesialis Umrah Hemat dengan Hotel Sangat Dekat (±25 Meter) dari Masjidil Haram & Nabawi. Paket lengkap, bimbingan ahli, keberangkatan dari Padang. Konsultasi Gratis!">
-  <meta name="keywords" content="umrah hemat, paket umrah, umrah hotel dekat, arofa travel, umrah terpercaya, umrah padang, pt arofa naqiyya wisata hati">
-  <meta name="author" content="PT. Arofa Naqiyya Wisata Hati">
-  <meta name="theme-color" content="#14532d">
-  <meta name="msapplication-navbutton-color" content="#14532d">
-  <meta name="apple-mobile-web-app-status-bar-style" content="#14532d">
-  <link rel="icon" type="image/png" href="logo.png">
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/scrollreveal"></script>
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-    }
-    .smooth-scroll {
-      scroll-behavior: smooth;
-    }
-    .shadow-custom {
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    }
-    .hover-lift {
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .hover-lift:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-    }
-    .bg-hero {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('jemaah.jpg');
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-    }
-    @media (max-width: 768px) {
-      .bg-hero {
-        background-attachment: scroll;
-      }
-    }
-    .badge {
-      position: absolute;
-      top: -10px;
-      right: -10px;
-      background: #f59e0b;
-      color: white;
-      padding: 5px 10px;
-      border-radius: 20px;
-      font-size: 0.75rem;
-      font-weight: bold;
-      transform: rotate(5deg);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-    .feature-card {
-      transition: all 0.3s ease;
-    }
-    .feature-card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-    }
-    header {
-      z-index: 9999 !important;
-    }
-    #mobileMenu {
-  z-index: 50;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background: #065f46;
-}
-section:first-of-type {
-  padding-top: 80px;
-}
-@media (max-width: 768px) {
-  section:first-of-type {
-    padding-top: 70px;
-  }
-}
-
-  </style>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Arofa Travel | Umrah Hemat, Hotel Dekat, Harga Bersahabat</title>
+<meta name=description content="PT. Arofa Travel: Spesialis Umrah Hemat dengan Hotel Sangat Dekat (±25 Meter) dari Masjidil Haram & Nabawi. Paket lengkap, bimbingan ahli, keberangkatan dari Padang. Konsultasi Gratis!">
+<meta name=keywords content="umrah hemat, paket umrah, umrah hotel dekat, arofa travel, umrah terpercaya, umrah padang, pt arofa naqiyya wisata hati">
+<meta name=author content="PT. Arofa Naqiyya Wisata Hati">
+<meta name=theme-color content=#14532d>
+<meta name=msapplication-navbutton-color content=#14532d>
+<meta name=apple-mobile-web-app-status-bar-style content=#14532d>
+<link rel=icon type=image/png href=logo.png>
+<link href=https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css rel=stylesheet>
+<script src=https://cdn.jsdelivr.net/npm/scrollreveal></script>
+<script src=https://unpkg.com/lucide@latest></script>
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel=stylesheet>
+<style>body{font-family:Poppins,sans-serif}.smooth-scroll{scroll-behavior:smooth}.shadow-custom{box-shadow:0 10px 30px rgba(0,0,0,.1)}.hover-lift{transition:transform .3s ease,box-shadow .3s ease}.hover-lift:hover{transform:translateY(-5px);box-shadow:0 15px 30px rgba(0,0,0,.15)}.bg-hero{background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url('jemaah.jpg');background-size:cover;background-position:center;background-attachment:fixed}@media (max-width:768px){.bg-hero{background-attachment:scroll}}.badge{position:absolute;top:-10px;right:-10px;background:#f59e0b;color:#fff;padding:5px 10px;border-radius:20px;font-size:.75rem;font-weight:700;transform:rotate(5deg);box-shadow:0 4px 6px rgba(0,0,0,.1)}.feature-card{transition:all .3s ease}.feature-card:hover{transform:translateY(-8px);box-shadow:0 20px 40px rgba(0,0,0,.1)}header{z-index:9999!important}#mobileMenu{z-index:50;position:absolute;top:100%;left:0;right:0;background:#065f46}section:first-of-type{padding-top:80px}@media (max-width:768px){section:first-of-type{padding-top:70px}}</style>
 </head>
 <body class="bg-gray-50 text-gray-800 smooth-scroll">
 <header class="fixed top-0 w-full bg-green-900 bg-opacity-95 backdrop-blur-md shadow-md z-50">
-  <div class="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 py-3 text-white">
-    <div class="flex items-center space-x-3">
-      <img src="https://jaschat.web.id/logo.png" alt="Logo Arofa Travel" class="h-10 w-10 md:h-12 md:w-12 rounded-full shadow-lg">
-      <div>
-        <h1 class="text-lg md:text-xl font-bold leading-tight">PT. AROFA</h1>
-        <p class="text-xs text-green-200 hidden md:block">Travel Umrah Terpercaya</p>
-      </div>
-    </div>
-
-    <nav class="hidden md:flex space-x-6 text-base font-medium">
-      <a href="#home" class="hover:text-yellow-300 transition duration-300">Beranda</a>
-      <a href="#paket" class="hover:text-yellow-300 transition duration-300">Paket</a>
-      <a href="#gallery" class="hover:text-yellow-300 transition duration-300">Galeri</a>
-      <a href="#about" class="hover:text-yellow-300 transition duration-300">Tentang</a>
-      <a href="#kontak" class="hover:text-yellow-300 transition duration-300">Kontak</a>
-    </nav>
-
-    <!-- Tombol Pesan Sekarang -->
-<a href="https://wa.me/6287759808899?text=Halo%20Arofa%20Travel,%20saya%20ingin%20melakukan%20konsultasi"
-   target="_blank"
-   class="md:hidden inline-flex items-center justify-center bg-green-700 text-white text-sm font-medium px-4 py-2 rounded-lg shadow hover:bg-green-600 active:scale-95 transition duration-200 ease-in-out">
-   Pesan Sekarang
-</a>
-
-</header>
-
-<section id="home" class="relative min-h-screen flex items-center justify-center text-center bg-hero pt-20">
-  <div class="absolute inset-0 bg-black/50"></div>
-
-  <div class="relative z-10 max-w-4xl mx-auto px-6 text-white space-y-8">
-   <div class="inline-block bg-green-700 text-white px-4 py-2 rounded-full text-sm font-medium mb-2 md:mb-4 mt-8 md:mt-0">
-  Travel Umrah Terpercaya
+<div class="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 py-3 text-white">
+<div class="flex items-center space-x-3">
+<img src=https://jaschat.web.id/logo.png alt="Logo Arofa Travel" class="h-10 w-10 md:h-12 md:w-12 rounded-full shadow-lg">
+<div>
+<h1 class="text-lg md:text-xl font-bold leading-tight">PT. AROFA</h1>
+<p class="text-xs text-green-200 hidden md:block">Travel Umrah Terpercaya</p>
 </div>
-    <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight">
-      Umrah Hemat Hotel Dekat
-    </h1>
-    <p class="text-lg sm:text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto">
-      Bersama <span class="font-semibold text-yellow-400">PT. Arofa Naqiyya Wisata Hati</span>, perjalanan Umrah lebih dekat, aman, dan penuh berkah.
-    </p>
-    <div class="flex flex-col sm:flex-row justify-center gap-4 mt-8">
-      <a href="https://wa.me/6287759808899" target="_blank"
-         class="inline-block bg-green-600 hover:bg-green-500 text-white font-bold rounded-xl px-8 py-4 text-lg shadow-lg transition transform hover:scale-105">
-        Konsultasi Gratis
-      </a>
-      <a href="#paket"
-         class="inline-block bg-transparent border-2 border-white hover:bg-white hover:text-green-900 text-white font-bold rounded-xl px-8 py-4 text-lg transition">
-        Lihat Paket
-      </a>
-    </div>
-    
-  </div>
-</section>
-
-<section class="py-16 px-4 sm:px-6 bg-white">
-  <div class="max-w-7xl mx-auto">
-    <div class="text-center mb-16">
-      <h3 class="text-3xl md:text-4xl font-bold mb-4 text-green-900">Mengapa Memilih AROFA Travel?</h3>
-      <p class="max-w-3xl mx-auto text-lg text-gray-600">Kami memberikan pelayanan terbaik dengan harga terjangkau untuk pengalaman umrah yang tak terlupakan.</p>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-      <div class="feature-card bg-white rounded-2xl p-6 shadow-custom text-center">
-        <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-          <i data-lucide="shield-check" class="w-8 h-8 text-green-600"></i>
-        </div>
-        <h4 class="text-xl font-bold text-green-900 mb-2">Terpercaya & Berpengalaman</h4>
-        <p class="text-gray-600">Lebih dari 8 tahun melayani jemaah umrah dengan pengalaman dan keahlian yang mumpuni.</p>
-      </div>
-      <div class="feature-card bg-white rounded-2xl p-6 shadow-custom text-center">
-        <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-          <i data-lucide="map-pin" class="w-8 h-8 text-green-600"></i>
-        </div>
-        <h4 class="text-xl font-bold text-green-900 mb-2">Hotel Strategis</h4>
-        <p class="text-gray-600">Hotel dekat Masjidil Haram (±25 meter) dan Masjid Nabawi untuk kenyamanan ibadah.</p>
-      </div>
-      <div class="feature-card bg-white rounded-2xl p-6 shadow-custom text-center">
-        <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-          <i data-lucide="users" class="w-8 h-8 text-green-600"></i>
-        </div>
-        <h4 class="text-xl font-bold text-green-900 mb-2">Bimbingan Ibadah</h4>
-        <p class="text-gray-600">Pembimbing profesional yang siap membantu dan membimbing selama perjalanan ibadah.</p>
-      </div>
-      <div class="feature-card bg-white rounded-2xl p-6 shadow-custom text-center">
-        <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-          <i data-lucide="award" class="w-8 h-8 text-green-600"></i>
-        </div>
-        <h4 class="text-xl font-bold text-green-900 mb-2">Harga Terjangkau</h4>
-        <p class="text-gray-600">Paket umrah lengkap dengan harga bersaing dan transparan tanpa biaya tersembunyi.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
- <section id="paket" class="py-20 px-4 sm:px-6 bg-gradient-to-b from-green-800 to-green-900 text-white">
-  <div class="max-w-7xl mx-auto">
-    <div class="text-center mb-16">
-      <h3 class="text-3xl md:text-4xl font-bold mb-4">Pilihan Paket Umrah AROFA Travel</h3>
-      <p class="max-w-3xl mx-auto text-lg text-green-100">Semua program umrah resmi AROFA Travel disertai hotel dekat Masjidil Haram dan Nabawi, fasilitas terbaik, serta bimbingan ibadah profesional. Nikmati perjalanan ibadah nyaman & penuh makna.</p>
-    </div>
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
-        <div class="bg-green-700 py-3 text-center font-bold text-white">SUPER SALE</div>
-        <div class="p-6">
-          <p class="text-yellow-600 text-3xl font-bold text-center">Rp 26.500.000</p>
-          <p class="text-center text-gray-600 text-sm mb-3">12 Hari • Keb. 1 & 25 Agustus</p>
-          <p class="font-semibold text-gray-700">Makkah Azka Safa | Madinah Al Marsa</p>
-          <a href="https://wa.me/6287759808899" target="_blank" class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
-        </div>
-      </div>
-      <div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
-        <div class="bg-yellow-500 py-3 text-center font-bold text-green-900">PROMO HEMAT</div>
-        <div class="p-6">
-          <p class="text-yellow-600 text-3xl font-bold text-center">Rp 29.100.000</p>
-          <p class="text-center text-gray-600 text-sm mb-3">13 Hari • Keb. 5, 12, 19 & 26 Nov | 3 & 10 Des</p>
-          <p class="font-semibold text-gray-700">Makkah Wahat Al Deafah | Madinah Anwar Al Zahra</p>
-          <a href="https://wa.me/6287759808899" target="_blank" class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
-        </div>
-      </div>
-      <div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
-        <div class="bg-yellow-500 py-3 text-center font-bold text-green-900">PROMO HEMAT</div>
-        <div class="p-6">
-          <p class="text-yellow-600 text-3xl font-bold text-center">Rp 29.500.000</p>
-          <p class="text-center text-gray-600 text-sm mb-3">12 Hari • Keb. 15 Sep</p>
-          <p class="font-semibold text-gray-700">Makkah Wahat Al Deafah | Madinah Anwar Al Zahra</p>
-          <a href="https://wa.me/6287759808899" target="_blank" class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
-        </div>
-      </div>
-      <div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
-        <div class="bg-yellow-500 py-3 text-center font-bold text-green-900">PROMO HEBAT</div>
-        <div class="p-6">
-          <p class="text-yellow-600 text-3xl font-bold text-center">Rp 29.500.000</p>
-          <p class="text-center text-gray-600 text-sm mb-3">12 Hari • Keb. 22 Sep | 6, 20 & 27 Okt</p>
-          <p class="font-semibold text-gray-700">Makkah Azka Safa | Madinah Al Marsa</p>
-          <a href="https://wa.me/6287759808899" target="_blank" class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
-        </div>
-      </div>
-      <div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
-        <div class="bg-yellow-500 py-3 text-center font-bold text-green-900">PROMO HEBAT</div>
-        <div class="p-6">
-          <p class="text-yellow-600 text-3xl font-bold text-center">Rp 31.100.000</p>
-          <p class="text-center text-gray-600 text-sm mb-3">12 Hari • Keb. 24 Nov</p>
-          <p class="font-semibold text-gray-700">Makkah Azka Safa | Madinah Al Marsa</p>
-          <a href="https://wa.me/6287759808899" target="_blank" class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
-        </div>
-      </div>
-      <div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
-        <div class="bg-green-700 py-3 text-center font-bold text-white">UMROH HEBAT</div>
-        <div class="p-6">
-          <p class="text-yellow-600 text-3xl font-bold text-center">Rp 31.500.000</p>
-          <p class="text-center text-gray-600 text-sm mb-3">12 Hari • Keb. 15 & 22 Sep | 6, 20 & 27 Okt</p>
-          <p class="font-semibold text-gray-700">Makkah Maysan Al Maqam | Madinah Al Marsa</p>
-          <p class="text-sm text-gray-500">Free Ziarah Thaif & Jabal Magnet</p>
-          <a href="https://wa.me/6287759808899" target="_blank" class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
-        </div>
-      </div>
-      <div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
-        <div class="bg-yellow-500 py-3 text-center font-bold text-green-900">PROMO HEMAT</div>
-        <div class="p-6">
-          <p class="text-yellow-600 text-3xl font-bold text-center">Rp 32.000.000</p>
-          <p class="text-center text-gray-600 text-sm mb-3">13 Hari • Keb. 17 Des</p>
-          <p class="font-semibold text-gray-700">Makkah Wahat Al Deafah | Madinah Anwar Al Zahra</p>
-          <a href="https://wa.me/6287759808899" target="_blank" class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
-        </div>
-      </div>
-      <div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
-        <div class="bg-green-700 py-3 text-center font-bold text-white">UMROH HEBAT</div>
-        <div class="p-6">
-          <p class="text-yellow-600 text-3xl font-bold text-center">Rp 32.300.000</p>
-          <p class="text-center text-gray-600 text-sm mb-3">13 Hari • Keb. 3 & 24 Sep | 1 & 29 Okt</p>
-          <p class="font-semibold text-gray-700">Makkah Maysan Al Maqam | Madinah Al Marsa</p>
-          <p class="text-sm text-gray-500">Free Ziarah Thaif & Jabal Magnet</p>
-          <a href="https://wa.me/6287759808899" target="_blank" class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
-        </div>
-      </div>
-      <div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
-        <div class="bg-green-700 py-3 text-center font-bold text-white">UMROH HEBAT</div>
-        <div class="p-6">
-          <p class="text-yellow-600 text-3xl font-bold text-center">Rp 33.100.000</p>
-          <p class="text-center text-gray-600 text-sm mb-3">12 Hari • Keb. 24 Nov</p>
-          <p class="font-semibold text-gray-700">Makkah Maysan Al Maqam | Madinah Al Marsa</p>
-          <p class="text-sm text-gray-500">Free Ziarah Thaif & Jabal Magnet</p>
-          <a href="https://wa.me/6287759808899" target="_blank" class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
-        </div>
-      </div>
-      <div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
-        <div class="bg-green-700 py-3 text-center font-bold text-white">UMROH HEBAT</div>
-        <div class="p-6">
-          <p class="text-yellow-600 text-3xl font-bold text-center">Rp 33.900.000</p>
-          <p class="text-center text-gray-600 text-sm mb-3">13 Hari • Keb. 5 Nov | 3 & 10 Des</p>
-          <p class="font-semibold text-gray-700">Makkah Maysan Al Maqam | Madinah Al Marsa</p>
-          <p class="text-sm text-gray-500">Free Ziarah Thaif & Jabal Magnet</p>
-          <a href="https://wa.me/6287759808899" target="_blank" class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
-        </div>
-      </div>
-      <div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
-        <div class="bg-yellow-500 py-3 text-center font-bold text-green-900">PROMO HEBAT</div>
-        <div class="p-6">
-          <p class="text-yellow-600 text-3xl font-bold text-center">Rp 34.000.000</p>
-          <p class="text-center text-gray-600 text-sm mb-3">12 Hari • Keb. 15 & 29 Des</p>
-          <p class="font-semibold text-gray-700">Makkah Azka Safa | Madinah Al Marsa</p>
-          <a href="https://wa.me/6287759808899" target="_blank" class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
-        </div>
-      </div>
-      <div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
-        <div class="bg-green-700 py-3 text-center font-bold text-white">UMROH HEBAT</div>
-        <div class="p-6">
-          <p class="text-yellow-600 text-3xl font-bold text-center">Rp 36.000.000</p>
-          <p class="text-center text-gray-600 text-sm mb-3">12 Hari • Keb. 15 & 29 Des</p>
-          <p class="font-semibold text-gray-700">Makkah Maysan Al Maqam | Madinah Al Marsa</p>
-          <p class="text-sm text-gray-500">Free Ziarah Thaif & Jabal Magnet</p>
-          <a href="https://wa.me/6287759808899" target="_blank" class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
-        </div>
-      </div>
-      <div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
-        <div class="bg-green-800 py-3 text-center font-bold text-white">UMROH TURKIYE</div>
-        <div class="p-6">
-          <p class="text-yellow-600 text-3xl font-bold text-center">Rp 40.000.000</p>
-          <p class="text-center text-gray-600 text-sm mb-3">13 Hari • Keb. 12 Sep</p>
-          <p class="font-semibold text-gray-700">Makkah Azka Safa | Madinah Al Marsa</p>
-          <p class="text-sm text-gray-500">Free Ziarah Kota Thaif</p>
-          <a href="https://wa.me/6287759808899" target="_blank" class="mt-4 block bg-green-800 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-700">Pilih Paket Ini</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="gallery" class="py-20 px-4 sm:px-6 bg-gray-50">
-  <div class="max-w-7xl mx-auto">
-    <div class="text-center mb-16">
-      <h3 class="text-3xl md:text-4xl font-bold mb-4 text-green-900">Galeri Perjalanan</h3>
-      <p class="max-w-2xl mx-auto text-lg text-gray-600">Momen berharga jemaah umrah bersama Arofa Travel yang penuh kenangan dan keberkahan.</p>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <div class="overflow-hidden rounded-2xl shadow-custom bg-white hover-lift group">
-        <div class="overflow-hidden h-64">
-          <img src="jemaah1.webp" alt="Poster Promosi Arofa Travel" class="w-full h-full object-cover group-hover:scale-110 transform transition duration-700">
-        </div>
-        <div class="p-5">
-          <p class="text-green-900 font-semibold text-lg">Poster Promosi Arofa Travel</p>
-          <p class="text-gray-600 text-sm mt-2">Inilah momen sakral, di bawah terik matahari Makkah, di mana setiap langkah adalah ibadah. Para jemaah pria AROFA Travel terlihat mengenakan kain Ihram berwarna putih yang melambangkan kesucian dan kesetaraan di hadapan Allah SWT.</p>
-        </div>
-      </div>
-      <div class="overflow-hidden rounded-2xl shadow-custom bg-white hover-lift group">
-        <div class="overflow-hidden h-64">
-          <img src="jemaah2.webp" alt="Jemaah Umrah" class="w-full h-full object-cover group-hover:scale-110 transform transition duration-700">
-        </div>
-        <div class="p-5">
-          <p class="text-green-900 font-semibold text-lg">Jemaah Umrah Bersama Arofa</p>
-          <p class="text-gray-600 text-sm mt-2">Tidak ada lokasi yang lebih istimewa untuk memanjatkan doa selain di area suci Masjidil Haram. Foto ini menangkap momen intim dan mendalam, di mana jemaah AROFA Travel berusaha mendekat ke Ka'bah (Baitullah).</p>
-        </div>
-      </div>
-      <div class="overflow-hidden rounded-2xl shadow-custom bg-white hover-lift group">
-        <div class="overflow-hidden h-64">
-          <img src="jemaah2.webp" alt="Kegiatan Travel" class="w-full h-full object-cover group-hover:scale-110 transform transition duration-700">
-        </div>
-        <div class="p-5">
-          <p class="text-green-900 font-semibold text-lg">Kegiatan Perjalanan Travel</p>
-          <p class="text-gray-600 text-sm mt-2">Setelah menunaikan seluruh rangkaian ibadah Umrah dengan lancar dan mabrur, momen kebersamaan ini menjadi penutup yang indah. Dengan latar belakang Ka'bah yang agung dan arsitektur Masjidil Haram yang memukau.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="testimoni" class="py-20 px-4 sm:px-6 bg-gray-100">
-  <div class="max-w-6xl mx-auto text-center mb-12">
-    <h3 class="text-3xl md:text-4xl font-bold text-green-900 mb-4">Apa Kata Jemaah Kami</h3>
-    <p class="text-gray-600 text-lg">Pengalaman nyata para jemaah yang telah berangkat bersama AROFA Travel.</p>
-  </div>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-    <div class="bg-white rounded-2xl shadow-custom p-6 hover-lift">
-      <div class="flex items-center mb-4">
-        <img src="jemaah1.webp" alt="Jemaah" class="w-16 h-16 rounded-full object-cover">
-        <div class="ml-4">
-          <p class="font-semibold text-green-800">Hj. Nurlela, Padang</p>
-          <div class="flex text-yellow-400">
-            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
-            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
-            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
-            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
-            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
-          </div>
-        </div>
-      </div>
-      <p class="text-gray-700 italic">"Pelayanan sangat ramah dan profesional. Hotel dekat Masjidil Haram, makanannya pun enak. Alhamdulillah ibadah lancar dan khusyuk."</p>
-    </div>
-    <div class="bg-white rounded-2xl shadow-custom p-6 hover-lift">
-      <div class="flex items-center mb-4">
-        <img src="jemaah2.webp" alt="Jemaah" class="w-16 h-16 rounded-full object-cover">
-        <div class="ml-4">
-          <p class="font-semibold text-green-800">Bapak Fadli, Sijunjung</p>
-          <div class="flex text-yellow-400">
-            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
-            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
-            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
-            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
-            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
-          </div>
-        </div>
-      </div>
-      <p class="text-gray-700 italic">"Bimbingan manasiknya sangat membantu. Alhamdulillah, perjalanan umrah lancar dan khusyuk. Insya Allah akan berangkat lagi tahun depan."</p>
-    </div>
-    <div class="bg-white rounded-2xl shadow-custom p-6 hover-lift">
-      <div class="flex items-center mb-4">
-        <img src="jemaah3.webp" alt="Jemaah" class="w-16 h-16 rounded-full object-cover">
-        <div class="ml-4">
-          <p class="font-semibold text-green-800">Ibu Rahma, Bukittinggi</p>
-          <div class="flex text-yellow-400">
-            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
-            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
-            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
-            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
-            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
-          </div>
-        </div>
-      </div>
-      <p class="text-gray-700 italic">"AROFA Travel benar-benar amanah. Semua sesuai janji, dari tiket, hotel, sampai ziarah Thaif. Pembimbingnya sangat perhatian dan sabar."</p>
-    </div>
-  </div>
-</section>
-
-<section id="about" class="py-20 px-4 sm:px-6 bg-white">
-  <div class="max-w-5xl mx-auto">
-    <div class="text-center mb-16">
-      <h3 class="text-3xl md:text-4xl font-bold mb-4 text-green-900">Tentang Arofa Travel</h3>
-    </div>
-    <div class="flex flex-col md:flex-row items-center gap-10">
-      <div class="md:w-1/3 flex justify-center">
-        <div class="bg-green-100 p-6 rounded-2xl shadow-custom relative">
-          <img src="logo.png" alt="Logo Arofa Travel" class="w-full max-w-xs">
-          <div class="absolute -bottom-4 -right-4 bg-yellow-500 text-green-900 font-bold py-2 px-4 rounded-full text-sm">
-            Terpercaya 
-          </div>
-        </div>
-      </div>
-      <div class="md:w-2/3">
-        <p class="text-lg leading-relaxed mb-6">PT. Arofa Naqiyya Wisata Hati adalah mitra perjalanan spiritual terpercaya Anda. Sebagai biro perjalanan resmi yang berfokus pada Umrah dan Haji Khusus, kami berkomitmen memberikan pengalaman ibadah terbaik. Didukung pengalaman yang solid, pelayanan ramah, fasilitas modern, dan bimbingan ibadah terstruktur oleh ahli, kami siap mendampingi setiap langkah Anda, memastikan perjalanan menuju Baitullah berjalan lancar, nyaman, dan mabrur.</p>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-          <div class="flex items-start">
-            <i data-lucide="check-circle" class="w-6 h-6 text-green-600 flex-shrink-0 mt-1 mr-3"></i>
-            <span class="font-medium">Pesawat Terbang Langsung (Padang-Madinah)</span>
-          </div>
-          <div class="flex items-start">
-            <i data-lucide="check-circle" class="w-6 h-6 text-green-600 flex-shrink-0 mt-1 mr-3"></i>
-            <span class="font-medium">Manasik Dekat & Intensif Setiap Minggu</span>
-          </div>
-          <div class="flex items-start">
-            <i data-lucide="check-circle" class="w-6 h-6 text-green-600 flex-shrink-0 mt-1 mr-3"></i>
-            <span class="font-medium">Hotel Sangat Dekat (Hanya ± 25 Meter dari Masjid)</span>
-          </div>
-          <div class="flex items-start">
-            <i data-lucide="check-circle" class="w-6 h-6 text-green-600 flex-shrink-0 mt-1 mr-3"></i>
-            <span class="font-medium">Pengurusan Semua Berkas Keberangkatan Sampai Tuntas</span>
-          </div>
-          <div class="flex items-start">
-            <i data-lucide="check-circle" class="w-6 h-6 text-green-600 flex-shrink-0 mt-1 mr-3"></i>
-            <span class="font-medium">Setiap Keberangkatan Didampingi Petugas Lokal dari Sijunjung</span>
-          </div>
-          <div class="flex items-start">
-            <i data-lucide="check-circle" class="w-6 h-6 text-green-600 flex-shrink-0 mt-1 mr-3"></i>
-            <span class="font-medium">Bimbingan Ibadah Oleh Pembimbing Berpengalaman</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="kontak" class="py-20 px-4 sm:px-6 bg-gradient-to-br from-green-800 to-green-900 text-white">
-  <div class="max-w-5xl mx-auto">
-    <div class="text-center mb-16">
-      <h3 class="text-3xl md:text-4xl font-bold mb-4">Hubungi Kami</h3>
-      <p class="max-w-2xl mx-auto text-lg text-green-100">Untuk informasi lebih lanjut dan pendaftaran, silakan hubungi kontak berikut atau kunjungi kantor kami.</p>
-    </div>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
-      <div class="space-y-6">
-        <div>
-          <h4 class="text-xl font-bold mb-4 text-yellow-300">Informasi Kontak</h4>
-          <div class="space-y-4">
-            <div class="flex items-start">
-              <i data-lucide="map-pin" class="w-6 h-6 text-yellow-300 mt-1 mr-3"></i>
-              <div>
-                <p class="font-semibold">Kantor Pusat</p>
-                <p>Jl. Imam Bonjol No. 42, Sijunjung</p>
-              </div>
-            </div>
-            <div class="flex items-start">
-              <i data-lucide="map-pin" class="w-6 h-6 text-yellow-300 mt-1 mr-3"></i>
-              <div>
-                <p class="font-semibold">Kantor Operasional</p>
-                <p>Jl. M. Yamin, SH., Muaro Gambok, Sijunjung</p>
-              </div>
-            </div>
-            <div class="flex items-start">
-              <i data-lucide="phone" class="w-6 h-6 text-yellow-300 mt-1 mr-3"></i>
-              <div>
-                <p class="font-semibold">Telepon</p>
-                <p>0812-3456-7890</p>
-              </div>
-            </div>
-            <div class="flex items-start">
-              <i data-lucide="mail" class="w-6 h-6 text-yellow-300 mt-1 mr-3"></i>
-              <div>
-                <p class="font-semibold">Email</p>
-                <p>ptarofatravel@gmail.com</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h4 class="text-xl font-bold mb-4 text-yellow-300">Ikuti Kami</h4>
-          <div class="flex space-x-4">
-            <a href="https://www.instagram.com/arofa_travel?igsh=MTB5ZHY4b211N2kxeQ==" target="_blank" class="bg-green-700 p-3 rounded-full hover:bg-green-600 transition duration-300 transform hover:scale-110">
-              <i data-lucide="instagram" class="w-6 h-6"></i>
-            </a>
-            <a href="https://www.tiktok.com/@arofatravelofficial?_t=ZS-90Ktuac8I6i&_r=1" 
-   target="_blank" 
-   class="bg-green-700 p-3 rounded-full hover:bg-green-600 transition duration-300 transform hover:scale-110">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-6 h-6" fill="white">
-    <path d="M448,209.9a210.1,210.1,0,0,1-122.8-39.3V352.2A159.8,159.8,0,1,1,185,194.5V263a96,96,0,1,0,67.4,91.7V0h73.8A135.6,135.6,0,0,0,448,135.6Z"/>
-  </svg>
+</div>
+<nav class="hidden md:flex space-x-6 text-base font-medium">
+<a href=#home class="hover:text-yellow-300 transition duration-300">Beranda</a>
+<a href=#paket class="hover:text-yellow-300 transition duration-300">Paket</a>
+<a href=#gallery class="hover:text-yellow-300 transition duration-300">Galeri</a>
+<a href=#about class="hover:text-yellow-300 transition duration-300">Tentang</a>
+<a href=#kontak class="hover:text-yellow-300 transition duration-300">Kontak</a>
+</nav>
+<a href="https://wa.me/6287759808899?text=Halo%20Arofa%20Travel,%20saya%20ingin%20melakukan%20konsultasi" target=_blank class="md:hidden inline-flex items-center justify-center bg-green-700 text-white text-sm font-medium px-4 py-2 rounded-lg shadow hover:bg-green-600 active:scale-95 transition duration-200 ease-in-out">
+Pesan Sekarang
 </a>
-
-            <a href="https://www.facebook.com/share/178xPQraT3/" target="_blank" class="bg-green-700 p-3 rounded-full hover:bg-green-600 transition duration-300 transform hover:scale-110">
-              <i data-lucide="facebook" class="w-6 h-6"></i>
-            </a>
-            <a href="https://wa.me/6287759808899" target="_blank" class="bg-green-700 p-3 rounded-full hover:bg-green-600 transition duration-300 transform hover:scale-110">
-              <i data-lucide="phone" class="w-6 h-6"></i>
-            </a>
-          </div>
-        </div>
-        <div class="mt-8 bg-white/10 p-6 rounded-2xl">
-          <h4 class="text-xl font-bold mb-4 text-yellow-300">Jam Operasional</h4>
-          <div class="space-y-2">
-            <div class="flex justify-between">
-              <span>Senin - Jumat</span>
-              <span>08:00 - 17:00</span>
-            </div>
-            <div class="flex justify-between">
-              <span>Sabtu</span>
-              <span>08:00 - 15:00</span>
-            </div>
-            <div class="flex justify-between">
-              <span>Minggu</span>
-              <span>Libur</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="bg-white text-gray-800 rounded-2xl p-6 shadow-custom">
-        <h4 class="text-xl font-bold mb-4 text-green-900">Kirim Pesan</h4>
-        <form id="waForm" class="space-y-4">
-          <div>
-            <label for="name" class="block text-sm font-medium mb-1">Nama Lengkap</label>
-            <input type="text" id="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
-          </div>
-          <div>
-            <label for="phone" class="block text-sm font-medium mb-1">Nomor Telepon</label>
-            <input type="tel" id="phone" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
-          </div>
-          <div>
-            <label for="message" class="block text-sm font-medium mb-1">Isi Pesanan</label>
-            <textarea id="message" rows="4" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"></textarea>
-          </div>
-          <button type="submit" class="w-full bg-green-700 text-white font-semibold py-3 rounded-lg hover:bg-green-600 transition duration-300 transform hover:scale-105">Kirim ke WhatsApp</button>
-        </form>
-      </div>
-    </div>
-  </div>
+</div></header>
+<section id=home class="relative min-h-screen flex items-center justify-center text-center bg-hero pt-20">
+<div class="absolute inset-0 bg-black/50"></div>
+<div class="relative z-10 max-w-4xl mx-auto px-6 text-white space-y-8">
+<div class="inline-block bg-green-700 text-white px-4 py-2 rounded-full text-sm font-medium mb-2 md:mb-4 mt-8 md:mt-0">
+Travel Umrah Terpercaya
+</div>
+<h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight">
+Umrah Hemat Hotel Dekat
+</h1>
+<p class="text-lg sm:text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto">
+Bersama <span class="font-semibold text-yellow-400">PT. Arofa Naqiyya Wisata Hati</span>, perjalanan Umrah lebih dekat, aman, dan penuh berkah.
+</p>
+<div class="flex flex-col sm:flex-row justify-center gap-4 mt-8">
+<a href=https://wa.me/6287759808899 target=_blank class="inline-block bg-green-600 hover:bg-green-500 text-white font-bold rounded-xl px-8 py-4 text-lg shadow-lg transition transform hover:scale-105">
+Konsultasi Gratis
+</a>
+<a href=#paket class="inline-block bg-transparent border-2 border-white hover:bg-white hover:text-green-900 text-white font-bold rounded-xl px-8 py-4 text-lg transition">
+Lihat Paket
+</a>
+</div>
+</div>
 </section>
-
+<section class="py-16 px-4 sm:px-6 bg-white">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<h3 class="text-3xl md:text-4xl font-bold mb-4 text-green-900">Mengapa Memilih AROFA Travel?</h3>
+<p class="max-w-3xl mx-auto text-lg text-gray-600">Kami memberikan pelayanan terbaik dengan harga terjangkau untuk pengalaman umrah yang tak terlupakan.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="feature-card bg-white rounded-2xl p-6 shadow-custom text-center">
+<div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+<i data-lucide=shield-check class="w-8 h-8 text-green-600"></i>
+</div>
+<h4 class="text-xl font-bold text-green-900 mb-2">Terpercaya & Berpengalaman</h4>
+<p class=text-gray-600>Lebih dari 8 tahun melayani jemaah umrah dengan pengalaman dan keahlian yang mumpuni.</p>
+</div>
+<div class="feature-card bg-white rounded-2xl p-6 shadow-custom text-center">
+<div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+<i data-lucide=map-pin class="w-8 h-8 text-green-600"></i>
+</div>
+<h4 class="text-xl font-bold text-green-900 mb-2">Hotel Strategis</h4>
+<p class=text-gray-600>Hotel dekat Masjidil Haram (±25 meter) dan Masjid Nabawi untuk kenyamanan ibadah.</p>
+</div>
+<div class="feature-card bg-white rounded-2xl p-6 shadow-custom text-center">
+<div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+<i data-lucide=users class="w-8 h-8 text-green-600"></i>
+</div>
+<h4 class="text-xl font-bold text-green-900 mb-2">Bimbingan Ibadah</h4>
+<p class=text-gray-600>Pembimbing profesional yang siap membantu dan membimbing selama perjalanan ibadah.</p>
+</div>
+<div class="feature-card bg-white rounded-2xl p-6 shadow-custom text-center">
+<div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+<i data-lucide=award class="w-8 h-8 text-green-600"></i>
+</div>
+<h4 class="text-xl font-bold text-green-900 mb-2">Harga Terjangkau</h4>
+<p class=text-gray-600>Paket umrah lengkap dengan harga bersaing dan transparan tanpa biaya tersembunyi.</p>
+</div>
+</div>
+</div>
+</section>
+<section id=paket class="py-20 px-4 sm:px-6 bg-gradient-to-b from-green-800 to-green-900 text-white">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<h3 class="text-3xl md:text-4xl font-bold mb-4">Pilihan Paket Umrah AROFA Travel</h3>
+<p class="max-w-3xl mx-auto text-lg text-green-100">Semua program umrah resmi AROFA Travel disertai hotel dekat Masjidil Haram dan Nabawi, fasilitas terbaik, serta bimbingan ibadah profesional. Nikmati perjalanan ibadah nyaman & penuh makna.</p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
+<div class="bg-green-700 py-3 text-center font-bold text-white">SUPER SALE</div>
+<div class=p-6>
+<p class="text-yellow-600 text-3xl font-bold text-center">Rp 26.500.000</p>
+<p class="text-center text-gray-600 text-sm mb-3">12 Hari • Keb. 1 & 25 Agustus</p>
+<p class="font-semibold text-gray-700">Makkah Azka Safa | Madinah Al Marsa</p>
+<a href=https://wa.me/6287759808899 target=_blank class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
+</div>
+</div>
+<div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
+<div class="bg-yellow-500 py-3 text-center font-bold text-green-900">PROMO HEMAT</div>
+<div class=p-6>
+<p class="text-yellow-600 text-3xl font-bold text-center">Rp 29.100.000</p>
+<p class="text-center text-gray-600 text-sm mb-3">13 Hari • Keb. 5, 12, 19 & 26 Nov | 3 & 10 Des</p>
+<p class="font-semibold text-gray-700">Makkah Wahat Al Deafah | Madinah Anwar Al Zahra</p>
+<a href=https://wa.me/6287759808899 target=_blank class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
+</div>
+</div>
+<div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
+<div class="bg-yellow-500 py-3 text-center font-bold text-green-900">PROMO HEMAT</div>
+<div class=p-6>
+<p class="text-yellow-600 text-3xl font-bold text-center">Rp 29.500.000</p>
+<p class="text-center text-gray-600 text-sm mb-3">12 Hari • Keb. 15 Sep</p>
+<p class="font-semibold text-gray-700">Makkah Wahat Al Deafah | Madinah Anwar Al Zahra</p>
+<a href=https://wa.me/6287759808899 target=_blank class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
+</div>
+</div>
+<div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
+<div class="bg-yellow-500 py-3 text-center font-bold text-green-900">PROMO HEBAT</div>
+<div class=p-6>
+<p class="text-yellow-600 text-3xl font-bold text-center">Rp 29.500.000</p>
+<p class="text-center text-gray-600 text-sm mb-3">12 Hari • Keb. 22 Sep | 6, 20 & 27 Okt</p>
+<p class="font-semibold text-gray-700">Makkah Azka Safa | Madinah Al Marsa</p>
+<a href=https://wa.me/6287759808899 target=_blank class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
+</div>
+</div>
+<div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
+<div class="bg-yellow-500 py-3 text-center font-bold text-green-900">PROMO HEBAT</div>
+<div class=p-6>
+<p class="text-yellow-600 text-3xl font-bold text-center">Rp 31.100.000</p>
+<p class="text-center text-gray-600 text-sm mb-3">12 Hari • Keb. 24 Nov</p>
+<p class="font-semibold text-gray-700">Makkah Azka Safa | Madinah Al Marsa</p>
+<a href=https://wa.me/6287759808899 target=_blank class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
+</div>
+</div>
+<div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
+<div class="bg-green-700 py-3 text-center font-bold text-white">UMROH HEBAT</div>
+<div class=p-6>
+<p class="text-yellow-600 text-3xl font-bold text-center">Rp 31.500.000</p>
+<p class="text-center text-gray-600 text-sm mb-3">12 Hari • Keb. 15 & 22 Sep | 6, 20 & 27 Okt</p>
+<p class="font-semibold text-gray-700">Makkah Maysan Al Maqam | Madinah Al Marsa</p>
+<p class="text-sm text-gray-500">Free Ziarah Thaif & Jabal Magnet</p>
+<a href=https://wa.me/6287759808899 target=_blank class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
+</div>
+</div>
+<div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
+<div class="bg-yellow-500 py-3 text-center font-bold text-green-900">PROMO HEMAT</div>
+<div class=p-6>
+<p class="text-yellow-600 text-3xl font-bold text-center">Rp 32.000.000</p>
+<p class="text-center text-gray-600 text-sm mb-3">13 Hari • Keb. 17 Des</p>
+<p class="font-semibold text-gray-700">Makkah Wahat Al Deafah | Madinah Anwar Al Zahra</p>
+<a href=https://wa.me/6287759808899 target=_blank class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
+</div>
+</div>
+<div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
+<div class="bg-green-700 py-3 text-center font-bold text-white">UMROH HEBAT</div>
+<div class=p-6>
+<p class="text-yellow-600 text-3xl font-bold text-center">Rp 32.300.000</p>
+<p class="text-center text-gray-600 text-sm mb-3">13 Hari • Keb. 3 & 24 Sep | 1 & 29 Okt</p>
+<p class="font-semibold text-gray-700">Makkah Maysan Al Maqam | Madinah Al Marsa</p>
+<p class="text-sm text-gray-500">Free Ziarah Thaif & Jabal Magnet</p>
+<a href=https://wa.me/6287759808899 target=_blank class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
+</div>
+</div>
+<div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
+<div class="bg-green-700 py-3 text-center font-bold text-white">UMROH HEBAT</div>
+<div class=p-6>
+<p class="text-yellow-600 text-3xl font-bold text-center">Rp 33.100.000</p>
+<p class="text-center text-gray-600 text-sm mb-3">12 Hari • Keb. 24 Nov</p>
+<p class="font-semibold text-gray-700">Makkah Maysan Al Maqam | Madinah Al Marsa</p>
+<p class="text-sm text-gray-500">Free Ziarah Thaif & Jabal Magnet</p>
+<a href=https://wa.me/6287759808899 target=_blank class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
+</div>
+</div>
+<div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
+<div class="bg-green-700 py-3 text-center font-bold text-white">UMROH HEBAT</div>
+<div class=p-6>
+<p class="text-yellow-600 text-3xl font-bold text-center">Rp 33.900.000</p>
+<p class="text-center text-gray-600 text-sm mb-3">13 Hari • Keb. 5 Nov | 3 & 10 Des</p>
+<p class="font-semibold text-gray-700">Makkah Maysan Al Maqam | Madinah Al Marsa</p>
+<p class="text-sm text-gray-500">Free Ziarah Thaif & Jabal Magnet</p>
+<a href=https://wa.me/6287759808899 target=_blank class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
+</div>
+</div>
+<div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
+<div class="bg-yellow-500 py-3 text-center font-bold text-green-900">PROMO HEBAT</div>
+<div class=p-6>
+<p class="text-yellow-600 text-3xl font-bold text-center">Rp 34.000.000</p>
+<p class="text-center text-gray-600 text-sm mb-3">12 Hari • Keb. 15 & 29 Des</p>
+<p class="font-semibold text-gray-700">Makkah Azka Safa | Madinah Al Marsa</p>
+<a href=https://wa.me/6287759808899 target=_blank class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
+</div>
+</div>
+<div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
+<div class="bg-green-700 py-3 text-center font-bold text-white">UMROH HEBAT</div>
+<div class=p-6>
+<p class="text-yellow-600 text-3xl font-bold text-center">Rp 36.000.000</p>
+<p class="text-center text-gray-600 text-sm mb-3">12 Hari • Keb. 15 & 29 Des</p>
+<p class="font-semibold text-gray-700">Makkah Maysan Al Maqam | Madinah Al Marsa</p>
+<p class="text-sm text-gray-500">Free Ziarah Thaif & Jabal Magnet</p>
+<a href=https://wa.me/6287759808899 target=_blank class="mt-4 block bg-green-700 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-600">Pilih Paket Ini</a>
+</div>
+</div>
+<div class="bg-white text-gray-800 rounded-2xl shadow-xl overflow-hidden">
+<div class="bg-green-800 py-3 text-center font-bold text-white">UMROH TURKIYE</div>
+<div class=p-6>
+<p class="text-yellow-600 text-3xl font-bold text-center">Rp 40.000.000</p>
+<p class="text-center text-gray-600 text-sm mb-3">13 Hari • Keb. 12 Sep</p>
+<p class="font-semibold text-gray-700">Makkah Azka Safa | Madinah Al Marsa</p>
+<p class="text-sm text-gray-500">Free Ziarah Kota Thaif</p>
+<a href=https://wa.me/6287759808899 target=_blank class="mt-4 block bg-green-800 text-white text-center font-semibold rounded-lg py-2 hover:bg-green-700">Pilih Paket Ini</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id=gallery class="py-20 px-4 sm:px-6 bg-gray-50">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<h3 class="text-3xl md:text-4xl font-bold mb-4 text-green-900">Galeri Perjalanan</h3>
+<p class="max-w-2xl mx-auto text-lg text-gray-600">Momen berharga jemaah umrah bersama Arofa Travel yang penuh kenangan dan keberkahan.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="overflow-hidden rounded-2xl shadow-custom bg-white hover-lift group">
+<div class="overflow-hidden h-64">
+<img src=jemaah1.webp alt="Poster Promosi Arofa Travel" class="w-full h-full object-cover group-hover:scale-110 transform transition duration-700">
+</div>
+<div class=p-5>
+<p class="text-green-900 font-semibold text-lg">Poster Promosi Arofa Travel</p>
+<p class="text-gray-600 text-sm mt-2">Inilah momen sakral, di bawah terik matahari Makkah, di mana setiap langkah adalah ibadah. Para jemaah pria AROFA Travel terlihat mengenakan kain Ihram berwarna putih yang melambangkan kesucian dan kesetaraan di hadapan Allah SWT.</p>
+</div>
+</div>
+<div class="overflow-hidden rounded-2xl shadow-custom bg-white hover-lift group">
+<div class="overflow-hidden h-64">
+<img src=jemaah2.webp alt="Jemaah Umrah" class="w-full h-full object-cover group-hover:scale-110 transform transition duration-700">
+</div>
+<div class=p-5>
+<p class="text-green-900 font-semibold text-lg">Jemaah Umrah Bersama Arofa</p>
+<p class="text-gray-600 text-sm mt-2">Tidak ada lokasi yang lebih istimewa untuk memanjatkan doa selain di area suci Masjidil Haram. Foto ini menangkap momen intim dan mendalam, di mana jemaah AROFA Travel berusaha mendekat ke Ka'bah (Baitullah).</p>
+</div>
+</div>
+<div class="overflow-hidden rounded-2xl shadow-custom bg-white hover-lift group">
+<div class="overflow-hidden h-64">
+<img src=jemaah2.webp alt="Kegiatan Travel" class="w-full h-full object-cover group-hover:scale-110 transform transition duration-700">
+</div>
+<div class=p-5>
+<p class="text-green-900 font-semibold text-lg">Kegiatan Perjalanan Travel</p>
+<p class="text-gray-600 text-sm mt-2">Setelah menunaikan seluruh rangkaian ibadah Umrah dengan lancar dan mabrur, momen kebersamaan ini menjadi penutup yang indah. Dengan latar belakang Ka'bah yang agung dan arsitektur Masjidil Haram yang memukau.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id=testimoni class="py-20 px-4 sm:px-6 bg-gray-100">
+<div class="max-w-6xl mx-auto text-center mb-12">
+<h3 class="text-3xl md:text-4xl font-bold text-green-900 mb-4">Apa Kata Jemaah Kami</h3>
+<p class="text-gray-600 text-lg">Pengalaman nyata para jemaah yang telah berangkat bersama AROFA Travel.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-white rounded-2xl shadow-custom p-6 hover-lift">
+<div class="flex items-center mb-4">
+<img src=jemaah1.webp alt=Jemaah class="w-16 h-16 rounded-full object-cover">
+<div class=ml-4>
+<p class="font-semibold text-green-800">Hj. Nurlela, Padang</p>
+<div class="flex text-yellow-400">
+<i data-lucide=star class="w-4 h-4 fill-current"></i>
+<i data-lucide=star class="w-4 h-4 fill-current"></i>
+<i data-lucide=star class="w-4 h-4 fill-current"></i>
+<i data-lucide=star class="w-4 h-4 fill-current"></i>
+<i data-lucide=star class="w-4 h-4 fill-current"></i>
+</div>
+</div>
+</div>
+<p class="text-gray-700 italic">"Pelayanan sangat ramah dan profesional. Hotel dekat Masjidil Haram, makanannya pun enak. Alhamdulillah ibadah lancar dan khusyuk."</p>
+</div>
+<div class="bg-white rounded-2xl shadow-custom p-6 hover-lift">
+<div class="flex items-center mb-4">
+<img src=jemaah2.webp alt=Jemaah class="w-16 h-16 rounded-full object-cover">
+<div class=ml-4>
+<p class="font-semibold text-green-800">Bapak Fadli, Sijunjung</p>
+<div class="flex text-yellow-400">
+<i data-lucide=star class="w-4 h-4 fill-current"></i>
+<i data-lucide=star class="w-4 h-4 fill-current"></i>
+<i data-lucide=star class="w-4 h-4 fill-current"></i>
+<i data-lucide=star class="w-4 h-4 fill-current"></i>
+<i data-lucide=star class="w-4 h-4 fill-current"></i>
+</div>
+</div>
+</div>
+<p class="text-gray-700 italic">"Bimbingan manasiknya sangat membantu. Alhamdulillah, perjalanan umrah lancar dan khusyuk. Insya Allah akan berangkat lagi tahun depan."</p>
+</div>
+<div class="bg-white rounded-2xl shadow-custom p-6 hover-lift">
+<div class="flex items-center mb-4">
+<img src=jemaah3.webp alt=Jemaah class="w-16 h-16 rounded-full object-cover">
+<div class=ml-4>
+<p class="font-semibold text-green-800">Ibu Rahma, Bukittinggi</p>
+<div class="flex text-yellow-400">
+<i data-lucide=star class="w-4 h-4 fill-current"></i>
+<i data-lucide=star class="w-4 h-4 fill-current"></i>
+<i data-lucide=star class="w-4 h-4 fill-current"></i>
+<i data-lucide=star class="w-4 h-4 fill-current"></i>
+<i data-lucide=star class="w-4 h-4 fill-current"></i>
+</div>
+</div>
+</div>
+<p class="text-gray-700 italic">"AROFA Travel benar-benar amanah. Semua sesuai janji, dari tiket, hotel, sampai ziarah Thaif. Pembimbingnya sangat perhatian dan sabar."</p>
+</div>
+</div>
+</section>
+<section id=about class="py-20 px-4 sm:px-6 bg-white">
+<div class="max-w-5xl mx-auto">
+<div class="text-center mb-16">
+<h3 class="text-3xl md:text-4xl font-bold mb-4 text-green-900">Tentang Arofa Travel</h3>
+</div>
+<div class="flex flex-col md:flex-row items-center gap-10">
+<div class="md:w-1/3 flex justify-center">
+<div class="bg-green-100 p-6 rounded-2xl shadow-custom relative">
+<img src=logo.png alt="Logo Arofa Travel" class="w-full max-w-xs">
+<div class="absolute -bottom-4 -right-4 bg-yellow-500 text-green-900 font-bold py-2 px-4 rounded-full text-sm">
+Terpercaya
+</div>
+</div>
+</div>
+<div class=md:w-2/3>
+<p class="text-lg leading-relaxed mb-6">PT. Arofa Naqiyya Wisata Hati adalah mitra perjalanan spiritual terpercaya Anda. Sebagai biro perjalanan resmi yang berfokus pada Umrah dan Haji Khusus, kami berkomitmen memberikan pengalaman ibadah terbaik. Didukung pengalaman yang solid, pelayanan ramah, fasilitas modern, dan bimbingan ibadah terstruktur oleh ahli, kami siap mendampingi setiap langkah Anda, memastikan perjalanan menuju Baitullah berjalan lancar, nyaman, dan mabrur.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+<div class="flex items-start">
+<i data-lucide=check-circle class="w-6 h-6 text-green-600 flex-shrink-0 mt-1 mr-3"></i>
+<span class=font-medium>Pesawat Terbang Langsung (Padang-Madinah)</span>
+</div>
+<div class="flex items-start">
+<i data-lucide=check-circle class="w-6 h-6 text-green-600 flex-shrink-0 mt-1 mr-3"></i>
+<span class=font-medium>Manasik Dekat & Intensif Setiap Minggu</span>
+</div>
+<div class="flex items-start">
+<i data-lucide=check-circle class="w-6 h-6 text-green-600 flex-shrink-0 mt-1 mr-3"></i>
+<span class=font-medium>Hotel Sangat Dekat (Hanya ± 25 Meter dari Masjid)</span>
+</div>
+<div class="flex items-start">
+<i data-lucide=check-circle class="w-6 h-6 text-green-600 flex-shrink-0 mt-1 mr-3"></i>
+<span class=font-medium>Pengurusan Semua Berkas Keberangkatan Sampai Tuntas</span>
+</div>
+<div class="flex items-start">
+<i data-lucide=check-circle class="w-6 h-6 text-green-600 flex-shrink-0 mt-1 mr-3"></i>
+<span class=font-medium>Setiap Keberangkatan Didampingi Petugas Lokal dari Sijunjung</span>
+</div>
+<div class="flex items-start">
+<i data-lucide=check-circle class="w-6 h-6 text-green-600 flex-shrink-0 mt-1 mr-3"></i>
+<span class=font-medium>Bimbingan Ibadah Oleh Pembimbing Berpengalaman</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id=kontak class="py-20 px-4 sm:px-6 bg-gradient-to-br from-green-800 to-green-900 text-white">
+<div class="max-w-5xl mx-auto">
+<div class="text-center mb-16">
+<h3 class="text-3xl md:text-4xl font-bold mb-4">Hubungi Kami</h3>
+<p class="max-w-2xl mx-auto text-lg text-green-100">Untuk informasi lebih lanjut dan pendaftaran, silakan hubungi kontak berikut atau kunjungi kantor kami.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+<div class=space-y-6>
+<div>
+<h4 class="text-xl font-bold mb-4 text-yellow-300">Informasi Kontak</h4>
+<div class=space-y-4>
+<div class="flex items-start">
+<i data-lucide=map-pin class="w-6 h-6 text-yellow-300 mt-1 mr-3"></i>
+<div>
+<p class=font-semibold>Kantor Pusat</p>
+<p>Jl. Imam Bonjol No. 42, Sijunjung</p>
+</div>
+</div>
+<div class="flex items-start">
+<i data-lucide=map-pin class="w-6 h-6 text-yellow-300 mt-1 mr-3"></i>
+<div>
+<p class=font-semibold>Kantor Operasional</p>
+<p>Jl. M. Yamin, SH., Muaro Gambok, Sijunjung</p>
+</div>
+</div>
+<div class="flex items-start">
+<i data-lucide=phone class="w-6 h-6 text-yellow-300 mt-1 mr-3"></i>
+<div>
+<p class=font-semibold>Telepon</p>
+<p>0812-3456-7890</p>
+</div>
+</div>
+<div class="flex items-start">
+<i data-lucide=mail class="w-6 h-6 text-yellow-300 mt-1 mr-3"></i>
+<div>
+<p class=font-semibold>Email</p>
+<p>ptarofatravel@gmail.com</p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<h4 class="text-xl font-bold mb-4 text-yellow-300">Ikuti Kami</h4>
+<div class="flex space-x-4">
+<a href="https://www.instagram.com/arofa_travel?igsh=MTB5ZHY4b211N2kxeQ==" target=_blank class="bg-green-700 p-3 rounded-full hover:bg-green-600 transition duration-300 transform hover:scale-110">
+<i data-lucide=instagram class="w-6 h-6"></i>
+</a>
+<a href="https://www.tiktok.com/@arofatravelofficial?_t=ZS-90Ktuac8I6i&_r=1" target=_blank class="bg-green-700 p-3 rounded-full hover:bg-green-600 transition duration-300 transform hover:scale-110">
+<svg xmlns=http://www.w3.org/2000/svg viewBox="0 0 448 512" class="w-6 h-6" fill=white>
+<path d=M448,209.9a210.1,210.1,0,0,1-122.8-39.3V352.2A159.8,159.8,0,1,1,185,194.5V263a96,96,0,1,0,67.4,91.7V0h73.8A135.6,135.6,0,0,0,448,135.6Z />
+</svg>
+</a>
+<a href=https://www.facebook.com/share/178xPQraT3/ target=_blank class="bg-green-700 p-3 rounded-full hover:bg-green-600 transition duration-300 transform hover:scale-110">
+<i data-lucide=facebook class="w-6 h-6"></i>
+</a>
+<a href=https://wa.me/6287759808899 target=_blank class="bg-green-700 p-3 rounded-full hover:bg-green-600 transition duration-300 transform hover:scale-110">
+<i data-lucide=phone class="w-6 h-6"></i>
+</a>
+</div>
+</div>
+<div class="mt-8 bg-white/10 p-6 rounded-2xl">
+<h4 class="text-xl font-bold mb-4 text-yellow-300">Jam Operasional</h4>
+<div class=space-y-2>
+<div class="flex justify-between">
+<span>Senin - Jumat</span>
+<span>08:00 - 17:00</span>
+</div>
+<div class="flex justify-between">
+<span>Sabtu</span>
+<span>08:00 - 15:00</span>
+</div>
+<div class="flex justify-between">
+<span>Minggu</span>
+<span>Libur</span>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white text-gray-800 rounded-2xl p-6 shadow-custom">
+<h4 class="text-xl font-bold mb-4 text-green-900">Kirim Pesan</h4>
+<form id=waForm class=space-y-4>
+<div>
+<label for=name class="block text-sm font-medium mb-1">Nama Lengkap</label>
+<input id=name required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+</div>
+<div>
+<label for=phone class="block text-sm font-medium mb-1">Nomor Telepon</label>
+<input type=tel id=phone required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+</div>
+<div>
+<label for=message class="block text-sm font-medium mb-1">Isi Pesanan</label>
+<textarea id=message rows=4 required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"></textarea>
+</div>
+<button type=submit class="w-full bg-green-700 text-white font-semibold py-3 rounded-lg hover:bg-green-600 transition duration-300 transform hover:scale-105">Kirim ke WhatsApp</button>
+</form>
+</div>
+</div>
+</div>
+</section>
 <footer class="bg-green-900 text-white py-10">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-      <div>
-        <div class="flex items-center space-x-3 mb-4">
-          <img src="https://jaschat.web.id/logo.png" alt="Logo Arofa Travel" class="h-12 w-12 rounded-full shadow-lg">
-          <h2 class="text-xl font-bold">PT. Arofa Naqiyya Wisata Hati</h2>
-        </div>
-        <p class="text-green-200 mb-4">Biro perjalanan umrah terpercaya dengan pelayanan terbaik untuk pengalaman ibadah yang tak terlupakan.</p>
-        
-      </div>
-      <div>
-        <h3 class="text-lg font-bold mb-4">Tautan Cepat</h3>
-        <ul class="space-y-2">
-          <li><a href="#home" class="text-green-200 hover:text-yellow-300 transition duration-300">Beranda</a></li>
-          <li><a href="#paket" class="text-green-200 hover:text-yellow-300 transition duration-300">Paket Umrah</a></li>
-          <li><a href="#gallery" class="text-green-200 hover:text-yellow-300 transition duration-300">Galeri</a></li>
-          <li><a href="#about" class="text-green-200 hover:text-yellow-300 transition duration-300">Tentang Kami</a></li>
-          <li><a href="#kontak" class="text-green-200 hover:text-yellow-300 transition duration-300">Kontak</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="text-lg font-bold mb-4">Kantor Kami</h3>
-        <div class="space-y-3 text-green-200">
-          <div class="flex items-start">
-            <i data-lucide="map-pin" class="w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
-            <p>Jl. Imam Bonjol No. 42, Sijunjung</p>
-          </div>
-          <div class="flex items-start">
-            <i data-lucide="map-pin" class="w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
-            <p>Jl. M. Yamin, SH., Muaro Gambok, Sijunjung</p>
-          </div>
-          <div class="flex items-start">
-            <i data-lucide="phone" class="w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
-            <p>0812-3456-7890</p>
-          </div>
-          <div class="flex items-start">
-            <i data-lucide="mail" class="w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
-            <p>arofatravel@gmail.com</p>
-          </div>
-        </div>
-        <div class="mt-6 rounded-xl overflow-hidden border-2 border-green-700">
-          <iframe
-            src="https://www.google.com/maps?q=Jl.+Imam+Bonjol+No.+42,+Sijunjung&output=embed"
-            width="100%"
-            height="200"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
-        </div>
-      </div>
-    </div>
-    <div class="pt-8 border-t border-green-800 text-center text-sm text-green-300">
-      <p>© 2025 PT. Arofa Naqiyya Wisata Hati. All Rights Reserved.</p>
-    </div>
-  </div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+<div>
+<div class="flex items-center space-x-3 mb-4">
+<img src=https://jaschat.web.id/logo.png alt="Logo Arofa Travel" class="h-12 w-12 rounded-full shadow-lg">
+<h2 class="text-xl font-bold">PT. Arofa Naqiyya Wisata Hati</h2>
+</div>
+<p class="text-green-200 mb-4">Biro perjalanan umrah terpercaya dengan pelayanan terbaik untuk pengalaman ibadah yang tak terlupakan.</p>
+</div>
+<div>
+<h3 class="text-lg font-bold mb-4">Tautan Cepat</h3>
+<ul class=space-y-2>
+<li><a href=#home class="text-green-200 hover:text-yellow-300 transition duration-300">Beranda</a></li>
+<li><a href=#paket class="text-green-200 hover:text-yellow-300 transition duration-300">Paket Umrah</a></li>
+<li><a href=#gallery class="text-green-200 hover:text-yellow-300 transition duration-300">Galeri</a></li>
+<li><a href=#about class="text-green-200 hover:text-yellow-300 transition duration-300">Tentang Kami</a></li>
+<li><a href=#kontak class="text-green-200 hover:text-yellow-300 transition duration-300">Kontak</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-bold mb-4">Kantor Kami</h3>
+<div class="space-y-3 text-green-200">
+<div class="flex items-start">
+<i data-lucide=map-pin class="w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+<p>Jl. Imam Bonjol No. 42, Sijunjung</p>
+</div>
+<div class="flex items-start">
+<i data-lucide=map-pin class="w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+<p>Jl. M. Yamin, SH., Muaro Gambok, Sijunjung</p>
+</div>
+<div class="flex items-start">
+<i data-lucide=phone class="w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+<p>0812-3456-7890</p>
+</div>
+<div class="flex items-start">
+<i data-lucide=mail class="w-4 h-4 mt-1 mr-2 flex-shrink-0"></i>
+<p>arofatravel@gmail.com</p>
+</div>
+</div>
+<div class="mt-6 rounded-xl overflow-hidden border-2 border-green-700">
+<iframe src="https://www.google.com/maps?q=Jl.+Imam+Bonjol+No.+42,+Sijunjung&output=embed" width=100% height=200 style=border:0 allowfullscreen loading=lazy referrerpolicy=no-referrer-when-downgrade>
+</iframe>
+</div>
+</div>
+</div>
+<div class="pt-8 border-t border-green-800 text-center text-sm text-green-300">
+<p>© 2025 PT. Arofa Naqiyya Wisata Hati. All Rights Reserved.</p>
+</div>
+</div>
 </footer>
-
-<script>
-  lucide.createIcons();
-
-  const menuBtn = document.getElementById("menuBtn");
-  const mobileMenu = document.getElementById("mobileMenu");
-  let menuOpen = false;
-
-  mobileMenu.classList.add("hidden");
-
-  menuBtn.addEventListener("click", (e) => {
-    e.stopPropagation();
-    menuOpen = !menuOpen;
-    
-    if (menuOpen) {
-      mobileMenu.classList.remove("hidden");
-      menuBtn.innerHTML = '<i data-lucide="x" class="w-6 h-6"></i>';
-    } else {
-      mobileMenu.classList.add("hidden");
-      menuBtn.innerHTML = '<i data-lucide="menu" class="w-6 h-6"></i>';
-    }
-    lucide.createIcons();
-  });
-
-  document.addEventListener('click', (e) => {
-    if (menuOpen && !mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
-      menuOpen = false;
-      mobileMenu.classList.add("hidden");
-      menuBtn.innerHTML = '<i data-lucide="menu" class="w-6 h-6"></i>';
-      lucide.createIcons();
-    }
-  });
-
-  document.querySelectorAll('#mobileMenu a').forEach(link => {
-    link.addEventListener('click', () => {
-      menuOpen = false;
-      mobileMenu.classList.add("hidden");
-      menuBtn.innerHTML = '<i data-lucide="menu" class="w-6 h-6"></i>';
-      lucide.createIcons();
-    });
-  });
-
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener("click", function (e) {
-      const targetId = this.getAttribute("href");
-      if (targetId.startsWith("#") && targetId.length > 1) {
-        e.preventDefault();
-        const targetElement = document.querySelector(targetId);
-        if (targetElement) {
-          const headerHeight = document.querySelector("header").offsetHeight;
-          const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
-          window.scrollTo({
-            top: targetPosition,
-            behavior: "smooth",
-          });
-        }
-      }
-    });
-  });
-
-  ScrollReveal().reveal("h2, h3, h4, p, a, img, .hover-lift", {
-    delay: 0,
-    distance: "30px",
-    origin: "bottom",
-    interval: 0,
-    duration: 800,
-    easing: "ease-in-out",
-    reset: false,
-  });
-
-  document.getElementById("waForm").addEventListener("submit", function (e) {
-    e.preventDefault();
-    const name = document.getElementById("name").value.trim();
-    const message = document.getElementById("message").value.trim();
-    if (!name || !message) {
-      alert("Harap isi semua kolom.");
-      return;
-    }
-    const phoneNumber = "6287759808899";
-    const text = `Halo Arofa Travel,%0ASaya *${name}* ingin melakukan pemesanan:%0A%0A${message}`;
-    const url = `https://wa.me/${phoneNumber}?text=${text}`;
-    window.open(url, "_blank");
-  });
-
-  window.addEventListener('scroll', function() {
-    const header = document.querySelector('header');
-    if (window.scrollY > 100) {
-      header.classList.add('shadow-lg');
-    } else {
-      header.classList.remove('shadow-lg');
-    }
-  });
-</script>
+<script>lucide.createIcons();const menuBtn=document.getElementById("menuBtn"),mobileMenu=document.getElementById("mobileMenu");let menuOpen=!1;mobileMenu.classList.add("hidden"),menuBtn.addEventListener("click",(e=>{e.stopPropagation(),menuOpen=!menuOpen,menuOpen?(mobileMenu.classList.remove("hidden"),menuBtn.innerHTML='<i data-lucide="x" class="w-6 h-6"></i>'):(mobileMenu.classList.add("hidden"),menuBtn.innerHTML='<i data-lucide="menu" class="w-6 h-6"></i>'),lucide.createIcons()})),document.addEventListener("click",(e=>{!menuOpen||mobileMenu.contains(e.target)||menuBtn.contains(e.target)||(menuOpen=!1,mobileMenu.classList.add("hidden"),menuBtn.innerHTML='<i data-lucide="menu" class="w-6 h-6"></i>',lucide.createIcons())})),document.querySelectorAll("#mobileMenu a").forEach((e=>{e.addEventListener("click",(()=>{menuOpen=!1,mobileMenu.classList.add("hidden"),menuBtn.innerHTML='<i data-lucide="menu" class="w-6 h-6"></i>',lucide.createIcons()}))})),document.querySelectorAll('a[href^="#"]').forEach((e=>{e.addEventListener("click",(function(e){const n=this.getAttribute("href");if(n.startsWith("#")&&n.length>1){e.preventDefault();const t=document.querySelector(n);if(t){const e=document.querySelector("header").offsetHeight,n=t.getBoundingClientRect().top+window.pageYOffset-e;window.scrollTo({top:n,behavior:"smooth"})}}}))})),ScrollReveal().reveal("h2, h3, h4, p, a, img, .hover-lift",{delay:0,distance:"30px",origin:"bottom",interval:0,duration:800,easing:"ease-in-out",reset:!1}),document.getElementById("waForm").addEventListener("submit",(function(e){e.preventDefault();const n=document.getElementById("name").value.trim(),t=document.getElementById("message").value.trim();if(!n||!t)return void alert("Harap isi semua kolom.");const i=`https://wa.me/6287759808899?text=${`Halo Arofa Travel,%0ASaya *${n}* ingin melakukan pemesanan:%0A%0A${t}`}`;window.open(i,"_blank")})),window.addEventListener("scroll",(function(){const e=document.querySelector("header");window.scrollY>100?e.classList.add("shadow-lg"):e.classList.remove("shadow-lg")}))</script>
 </body>
 </html>
