@@ -310,7 +310,7 @@ Lihat Paket
 </div>
 <div class="bg-white rounded-2xl shadow-custom p-6 hover-lift">
 <div class="flex items-center mb-4">
-<img src=jemaah3.webp alt=Jemaah class="w-16 h-16 rounded-full object-cover">
+<img src=jemaah.webp alt=Jemaah class="w-16 h-16 rounded-full object-cover">
 <div class=ml-4>
 <p class="font-semibold text-green-800">Ibu Rahma, Bukittinggi</p>
 <div class="flex text-yellow-400">
@@ -525,5 +525,6 @@ Terpercaya
 <script>lucide.createIcons();const menuBtn=document.getElementById("menuBtn"),mobileMenu=document.getElementById("mobileMenu");let menuOpen=!1;mobileMenu.classList.add("hidden"),menuBtn.addEventListener("click",(e=>{e.stopPropagation(),menuOpen=!menuOpen,menuOpen?(mobileMenu.classList.remove("hidden"),menuBtn.innerHTML='<i data-lucide="x" class="w-6 h-6"></i>'):(mobileMenu.classList.add("hidden"),menuBtn.innerHTML='<i data-lucide="menu" class="w-6 h-6"></i>'),lucide.createIcons()})),document.addEventListener("click",(e=>{!menuOpen||mobileMenu.contains(e.target)||menuBtn.contains(e.target)||(menuOpen=!1,mobileMenu.classList.add("hidden"),menuBtn.innerHTML='<i data-lucide="menu" class="w-6 h-6"></i>',lucide.createIcons())})),document.querySelectorAll("#mobileMenu a").forEach((e=>{e.addEventListener("click",(()=>{menuOpen=!1,mobileMenu.classList.add("hidden"),menuBtn.innerHTML='<i data-lucide="menu" class="w-6 h-6"></i>',lucide.createIcons()}))})),document.querySelectorAll('a[href^="#"]').forEach((e=>{e.addEventListener("click",(function(e){const n=this.getAttribute("href");if(n.startsWith("#")&&n.length>1){e.preventDefault();const t=document.querySelector(n);if(t){const e=document.querySelector("header").offsetHeight,n=t.getBoundingClientRect().top+window.pageYOffset-e;window.scrollTo({top:n,behavior:"smooth"})}}}))})),ScrollReveal().reveal("h2, h3, h4, p, a, img, .hover-lift",{delay:0,distance:"30px",origin:"bottom",interval:0,duration:800,easing:"ease-in-out",reset:!1}),document.getElementById("waForm").addEventListener("submit",(function(e){e.preventDefault();const n=document.getElementById("name").value.trim(),t=document.getElementById("message").value.trim();if(!n||!t)return void alert("Harap isi semua kolom.");const i=`https://wa.me/6287759808899?text=${`Halo Arofa Travel,%0ASaya *${n}* ingin melakukan pemesanan:%0A%0A${t}`}`;window.open(i,"_blank")})),window.addEventListener("scroll",(function(){const e=document.querySelector("header");window.scrollY>100?e.classList.add("shadow-lg"):e.classList.remove("shadow-lg")}))</script>
 </body>
 </html>
+
 
 
