@@ -367,11 +367,11 @@ Semua program umrah resmi AROFA Travel disertai hotel dekat Masjidil Haram dan N
 <div class="bg-white rounded-xl p-4 text-center shadow-md">
 <i class="fas fa-shield-alt text-3xl text-green-600 mb-2"></i>
 <p class=font-semibold>Aman & Terpercaya</p>
-<p class="text-sm text-gray-600">8+ Tahun</p>
+<p class="text-sm text-gray-600">tenang dalam ibadah</p>
 </div>
 <div class="bg-white rounded-xl p-4 text-center shadow-md">
 <i class="fas fa-user-check text-3xl text-green-600 mb-2"></i>
-<p class=font-semibold>500+ Jemaah</p>
+<p class=font-semibold>Jemaah</p>
 <p class="text-sm text-gray-600">Puaskan Hati</p>
 </div>
 <div class="bg-white rounded-xl p-4 text-center shadow-md">
@@ -586,4 +586,5 @@ Terpercaya
 <script>const menuBtn=document.getElementById("menuBtn"),mobileMenu=document.getElementById("mobileMenu");let menuOpen=!1;function sendToWhatsApp(e){e.preventDefault();const t=document.getElementById("name").value.trim(),n=document.getElementById("phone").value.trim(),o=document.getElementById("message").value.trim();if(!t||!n||!o)return void alert("Harap isi semua kolom terlebih dahulu.");const i=`https://api.whatsapp.com/send?phone=6287759808899&text=${encodeURIComponent(`Halo, saya *${t}* (${n}) ingin pesan:\n\n${o}`)}`;window.location.href=i}function animateCountUp(){document.querySelectorAll(".count-up").forEach((e=>{const t=parseInt(e.getAttribute("data-count")),n=t/125;let o=0;const i=()=>{o+=n,o<t?(e.textContent=Math.floor(o),requestAnimationFrame(i)):e.textContent=t};i()}))}menuBtn.addEventListener("click",(e=>{e.stopPropagation(),menuOpen=!menuOpen,menuOpen?(mobileMenu.classList.remove("hidden"),menuBtn.innerHTML='<i class="fas fa-times text-xl"></i>'):(mobileMenu.classList.add("hidden"),menuBtn.innerHTML='<i class="fas fa-bars text-xl"></i>')})),document.addEventListener("click",(e=>{!menuOpen||mobileMenu.contains(e.target)||menuBtn.contains(e.target)||(menuOpen=!1,mobileMenu.classList.add("hidden"),menuBtn.innerHTML='<i class="fas fa-bars text-xl"></i>')})),document.querySelectorAll("#mobileMenu a").forEach((e=>{e.addEventListener("click",(()=>{menuOpen=!1,mobileMenu.classList.add("hidden"),menuBtn.innerHTML='<i class="fas fa-bars text-xl"></i>'}))})),document.querySelectorAll('a[href^="#"]').forEach((e=>{e.addEventListener("click",(function(e){const t=this.getAttribute("href");if(t.startsWith("#")&&t.length>1){e.preventDefault();const n=document.querySelector(t);if(n){const e=document.querySelector("header").offsetHeight,t=n.getBoundingClientRect().top+window.pageYOffset-e;window.scrollTo({top:t,behavior:"smooth"})}}}))})),ScrollReveal().reveal("h2, h3, h4, p, a, img, .hover-lift",{delay:0,distance:"30px",origin:"bottom",interval:0,duration:800,easing:"ease-in-out",reset:!1}),document.getElementById("waForm").addEventListener("submit",sendToWhatsApp),document.querySelectorAll(".faq-question").forEach((e=>{e.addEventListener("click",(()=>{const t=e.nextElementSibling,n=e.querySelector("i");t.classList.toggle("hidden"),n.classList.toggle("rotate-180")}))})),window.addEventListener("load",(()=>{const e=new IntersectionObserver((t=>{t.forEach((t=>{t.isIntersecting&&(animateCountUp(),e.unobserve(t.target))}))}),{threshold:.5});document.querySelectorAll(".count-up").forEach((t=>{e.observe(t)}))})),window.addEventListener("scroll",(function(){const e=document.querySelector("header");window.scrollY>100?e.classList.add("shadow-lg"):e.classList.remove("shadow-lg")})),document.querySelectorAll(".faq-question").forEach((e=>{e.addEventListener("click",(()=>{const t=e.nextElementSibling,n=e.querySelector("i");t.classList.toggle("hidden"),n.classList.toggle("rotate-180"),t.classList.contains("hidden")||setTimeout((()=>{const t=document.querySelector("header").offsetHeight,n=e.getBoundingClientRect().top+window.scrollY-t-20;window.scrollTo({top:n,behavior:"smooth"})}),200)}))}))</script>
 </body>
 </html>
+
 
